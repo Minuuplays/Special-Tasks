@@ -5,3 +5,11 @@
 
    * On receiver *
    powershell -ExecutionPolicy Bypass -File client.ps1  
+
+
+>> To receive user input <<
+In client.ps1 -->
+change
+      $data = '5 3 9 1 22 10 2.5' 
+into 
+      $data = Read-Host "Enter numbers separated by spaces"
