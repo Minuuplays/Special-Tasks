@@ -1,0 +1,7 @@
+   // Need to navigate to the directory of the files
+
+   * On receiver *
+   powershell -ExecutionPolicy Bypass -File server.ps1
+
+   * On receiver *
+   powershell -ExecutionPolicy Bypass -File client.ps1  
