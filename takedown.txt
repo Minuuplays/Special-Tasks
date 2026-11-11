@@ -1,0 +1,5 @@
+//take control of WindowsApps(or any that is owned and denied by 'trusted....' and delete it
+
+takeown /F "D:\WindowsApps" /A /R /D Y
+icacls "D:\WindowsApps" /grant Administrators:F /T /C
+rmdir /s /q "D:\WindowsApps"
